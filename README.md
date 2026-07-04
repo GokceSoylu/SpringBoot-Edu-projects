@@ -1,2 +1,2 @@
 # SpringBoot-Edu-projects
-Project ı developed to learn springbok
+Project ı developed to learn springboot
