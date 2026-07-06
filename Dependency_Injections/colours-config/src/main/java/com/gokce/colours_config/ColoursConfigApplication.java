@@ -17,9 +17,15 @@ public class ColoursConfigApplication implements CommandLineRunner {
 		SpringApplication.run(ColoursConfigApplication.class, args);
 	}
 
+	private ColourPrinter colourPrinter;
+
+	public ColoursConfigApplication(ColourPrinter colourPrinter) {
+		this.colourPrinter = colourPrinter;
+	}
+
 	@Override
 	public void run(final String... args) {
-		final ColourPrinter colourPrinter = new ColourPrinterImpl();
+
 		log.info(colourPrinter.print());
 	}
 }
