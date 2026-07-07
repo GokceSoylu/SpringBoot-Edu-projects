@@ -1,6 +1,6 @@
-package com.gokce.colours_config.Services;
+package com.gokce.colours_component.Services;
 
-import main.java.com.gokce.colours_config.Services.GreenPrinter;
+import main.java.com.gokce.colours_component.Services.GreenPrinter;
 
 public class SpanishGreenPrinter implements GreenPrinter {
 

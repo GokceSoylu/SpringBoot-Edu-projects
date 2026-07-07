@@ -1,6 +1,6 @@
-package com.gokce.colours_config.Services;
+package com.gokce.colours_component.Services;
 
-import main.java.com.gokce.colours_config.Services.BluePrinter;
+import main.java.com.gokce.colours_component.Services.BluePrinter;
 
 public class SpanishBluePrinter implements BluePrinter {
 

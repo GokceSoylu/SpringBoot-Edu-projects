@@ -1,6 +1,6 @@
-package com.gokce.colours_config.Services;
+package com.gokce.colours_component.Services;
 
-import main.java.com.gokce.colours_config.Services.RedPrinter;
+import main.java.com.gokce.colours_component.Services.RedPrinter;
 
 public class SpanishRedPrinter implements RedPrinter {
 

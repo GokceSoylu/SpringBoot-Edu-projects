@@ -1,10 +1,12 @@
-package main.java.com.gokce.colours_config.Services.impl;
+package main.java.com.gokce.colours_component.Services.impl;
 
-import main.java.com.gokce.colours_config.Services.BluePrinter;
-import main.java.com.gokce.colours_config.Services.ColourPrinter;
-import main.java.com.gokce.colours_config.Services.RedPrinter;
-import main.java.com.gokce.colours_config.Services.GreenPrinter;
+import main.java.com.gokce.colours_component.Services.BluePrinter;
+import main.java.com.gokce.colours_component.Services.ColourPrinter;
+import main.java.com.gokce.colours_component.Services.RedPrinter;
+import main.java.com.gokce.colours_component.Services.GreenPrinter;
+import org.springframework.stereotype.Component;
 
+@Component
 public class ColourPrinterImpl implements ColourPrinter {
 
     private GreenPrinter greenPrinter;
